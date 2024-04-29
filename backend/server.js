@@ -66,6 +66,7 @@ app.post(
 			});
 		} catch (e) {
 			console.log(e.message);
+			res.json({ error: e.message });
 		}
 	})
 );

@@ -4,7 +4,7 @@ module.exports.wrapasync = (fn) => {
 			await fn(req, res, next);
 		} catch (err) {
 			console.log(err.message);
-			res.json({ failure: err.message });
+			res.json({ error: err.message });
 		}
 	};
 };
