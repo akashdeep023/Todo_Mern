@@ -10,7 +10,7 @@ const Header = () => {
 	const dispatch = useDispatch();
 	const handleLogout = () => {
 		console.log("logOutUser called");
-		fetch("http://localhost:8080/api/user/logout", {
+		fetch("/api/user/logout", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",
