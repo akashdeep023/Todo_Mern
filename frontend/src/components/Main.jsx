@@ -240,7 +240,7 @@ const Main = () => {
 						<input
 							className="w-full border border-slate-700 my-3 py-4 px-8 rounded-full flex justify-between bg-white text-black "
 							type="text"
-							placeholder="Enter Username"
+							placeholder="Enter Todo"
 							name="title"
 							value={title}
 							onChange={(e) => setTitle(e.target.value)}
@@ -271,7 +271,7 @@ const Main = () => {
 						<input
 							className="w-full border border-slate-700 my-3 py-4 px-8 rounded-full flex justify-between bg-white text-black "
 							type="text"
-							placeholder="Enter Username"
+							placeholder="Enter Todo"
 							name="title"
 							value={oldTodoTitle}
 							onChange={(e) => setOldTodoTitle(e.target.value)}
